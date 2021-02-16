@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pseudo classes</title>
+</head>
+<style>
+	/*acilmamis linke stil verir*/
+	a:link{
+		color: red;
+	}
+	/*acdigimiz(visit olunmus) linke stil verir*/
+	a:visited{
+		color:gray;
+	}
+	/*kursoru ustune getirende isleyir*/
+	a:hover{
+	    font-size: 15px;
+	}
+	/*klik eden an stil aktivlesir*/
+	a:active{
+		background-color: orange;
+	}
+	/*klik edennen sonra stil aktivlesir(focuslandiqdan sonra)*/
+	div:focus,input:focus{
+		outline: none ;
+        border:2px solid #5DFF00; 
+	}
+	/*kokde olan(html)elemente stil verir*/
+	:root{
+		background-color: #DFE0C7;
+	}
+	/*hedef olan elemente stil verir*/
+    ul:target{
+    	color: white;
+    	background-color: #C12C95;
+    }
+    /*bos olan yerlere stil verir( meselen bos input)*/
+    :empty{
+        background-color: #BBB3D6;
+    }
+    
+
+
+</style>
+
+<body>
+<a href="https://www.google.com/search"> Google </a><br> 
+<a href="https://yandex.ru/">Yandex</a><br>
+<a href="https://www.facebook.com/">Facebook</a><br>
+
+
+
+<input type="text"><br>
+<input type="text"><br>
+<input type="text"><br>
+<div tabindex="1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+<div tabindex="3">Tenetur dicta tempora, sit necessitatibus. Maiores quia autem officiis culpa fugit, voluptas quasi nulla qui aut dolore earum. </div>
+<div tabindex="2">Unde, perspiciatis reiciendis doloremque!</div>
+
+
+<a href="#hedef">Nergiz Hesenova</a><br>
+<a href="#search">Samir Kerimov</a>
+<ul id="hedef">
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>PHYTON</li>
+</ul>
+<ul id="search">
+<li>HTML</li>
+<li>CSS</li>
+<li>PHP</li>
+<li>PHYTON</li>
+</ul>
+</body>
+</html>
