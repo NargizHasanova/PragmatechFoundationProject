@@ -53,7 +53,7 @@ body{
 /* slider  section  styles  */
 #slider{
   height: 426px;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   position: relative;
 
 }
@@ -61,10 +61,10 @@ body{
 .slider-item{
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   background-image: url('img/slide1.jpg');
   background-size: cover;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   background-repeat: no-repeat; 
   background-position:center;
   position: absolute;
@@ -87,9 +87,56 @@ body{
   margin-top: 100px;
   padding-left: 20px;
 }
+#introduction{
+  /*border: 1px solid green;*/
+  height: 260px;
+  background: #F7F7F7;
+}
+.imgPlusQuote{
+  
+  /*border: 1px solid red;*/
+  display: flex;
+  padding: 20px 20px ;
+  margin:48px 185px;
 
+}
 
+.quote img{
+  border-radius: 50%;
+  width: 120px; 
+}
+div.intro{
+  display: flex;
+  align-items: center;
+  font-family: 'Newsreader', serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: black;
+  margin-left: 10px;
+  line-height: 16px;
+}
+.blog-container{
+   border: 1px solid red;
+   width: 1000px;
+   margin:  auto;
+   padding: auto;
+   
+}
+.blog-row{
+  display: block;
 
+}
+.blog-item{
+  border: 1px solid green;
+  height: 200px;
+  display: inline-block;
+  width: 497px;
+  padding: 10px;
+
+}
+.blog-item:hover{
+  background: #E0CF35;
+}
 
 
 
