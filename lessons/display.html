@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+    
+  <title>Display</title>
+  
+</head>
+<style>
+
+  /*display- inline*/
+  /*display- inline-block*/
+  div{
+    width: 250px;
+    border: 1px solid red;
+    margin: 2px ;
+    display: inline; /*divin icine ne qeder yazi yazibsansa o qeder blok yeri verir,yeni yuxarda verdiyin width-i saymir*/
+    display: inline-block; /*eyni sey,sadece yuxaridaki widthi sayir,o qeder blok yeri ayirir*/
+  }
+
+
+  /*display- block*/
+  span{
+    width: 250px;
+    border: 1px solid red;
+    margin: 2px ;
+    display: block ; /*ne qeder with verirsen ver oldugu sirani block edir,ne yanina basqa div gele bilir,nede ozu alt siraya dusur*/
+  }
+
+
+  /*display- none*/
+  #example{
+    display: none; /*div gorunmez olur ama inspectde gormek olur*/
+  }
+
+
+  /*display- list-item*/
+  p{
+    
+    display: list-item; /*elementi <li> kimi gorur,sadece <ul> icinde yazmaq lazimdi*/
+  }
+</style>
+
+<body>
+
+ <div>div hesenova</div>
+ <div>div hesenova</div>
+ <div>div hesenova</div><br><br>
+
+ <span>span hesenova</span>
+ <span>span hesenova</span>
+ <span>span hesenova</span>
+ <div id="example">aysel nezerova</div>
+<ul>
+ <p>list-item</p>
+ <p>list-item</p>
+ <li>list-item</li>
+ <p>list-item</p>
+</ul>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
