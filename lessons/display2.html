@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+    
+  <title>Display</title>
+  <!-- display: flex;
+       display: inline-flex; -->
+
+</head>
+<style>
+
+  /*display: flex*/
+  .ana{
+    
+    border: 2px solid red;
+    background: purple;
+    display: flex;
+  }
+  .bala{
+    border: 1px solid green;
+    background: aqua;
+  }
+  /*display: inline-flex*/
+  .mom{
+    border: 2px solid red;
+    background: purple;
+    display: inline-flex;
+  }
+  
+  .child{
+    border: 1px solid green;
+    background: aqua;
+  }
+  /*display: block;*/
+  .normalda{
+    border: 2px solid red;
+    background: purple;
+  }
+  .norm{
+    border: 1px solid green;
+    background: aqua;
+  }
+
+  
+</style>
+
+<body>
+  <h3>Usual case(display:block;)</h3>
+<div class="normalda">
+ <div class="norm">div hesenova</div>
+ <div class="norm">div hesenova</div>
+ <div class="norm">div hesenova</div>
+</div><br><br>
+
+ <h3>display:flex;</h3>
+<div class="ana">
+ <div class="bala">div hesenova</div>
+ <div class="bala">div hesenova</div>
+ <div class="bala">div hesenova</div>
+</div><br><br>
+
+ <h3>display:inline-flex;</h3>
+<div class="mom">
+ <div class="child">div hesenova</div>
+ <div class="child">div hesenova</div>
+ <div class="child">div hesenova</div>
+</div>
+ 
+</body>
+</html>
