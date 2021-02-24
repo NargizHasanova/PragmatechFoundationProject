@@ -4,8 +4,14 @@
 }
 body{
     
-    font-family:  'Open Sans','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:  'Open Sans','Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
     font-size: 13px;
+}
+/*header part start*/
+#header{
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 .header-info{
   background-color: white;
@@ -21,8 +27,9 @@ body{
    /*border: 1px solid red;*/
    padding: 0px 0px;
    align-items: center;
-
 }
+
+  
 .navbar-logo{
     /*border: 1px solid green;*/
     
@@ -49,16 +56,14 @@ body{
 .header-icons{
   margin:0px 5px;
 }
-
-/* slider  section  styles  */
+/*header part end*/
+/* slider  part start  */
 #slider{
   height: 426px;
   /*border: 1px solid red;*/
   position: relative;
 
 }
-
-
 .slider-photo{
   width: 100%;
   height: 100%;
@@ -72,13 +77,7 @@ body{
   left: 0px;*/
 }
 .slider-content{
-  
-  
   /*margin: 0 auto;*/
-  
-  
-  
-
 }
 .slider-content p{
   width:430px;
@@ -94,12 +93,10 @@ body{
   top: 120px;
   /*border: 1px solid green;*/
   padding: 25px 80px;
-
-
-  
-
-
 }
+/*slider part end*/
+
+/*introduction part start*/
 #introduction{
   /*border: 1px solid green;*/
   height: 260px;
@@ -128,62 +125,18 @@ div.intro{
   margin-left: 25px;
   line-height: 16px;
 }
-.blog-container{
-   border: 1px solid red;
-   width: 1000px;
-   margin:  auto;
-   padding: auto;
-   
-}
-.blog-row{
-  display: block;
-
-}
-.blog-item{
-  border: 1px solid green;
-  height: 200px;
-  display: inline-block;
-  width: 497px;
-  padding: 10px;
-
-}
-.blog-item:hover{
-  background: #E0CF35;
-}
+/*introduction part end*/
 /*layout part start*/
-.project-item{
-  
-  position: relative;
-  border: 2px solid green;
-  margin: 0 15px;
-}
-.image-frame{
-display: flex;
-}
-.image-frame img{
-   
-   height: 203px;
-   object-fit: cover;
-  
-  position: absolute;
-  top: 0px;
-  left: 0px;
+.col-2 img{
+  height: 200px;
   
 }
-.project-item h3{
-   padding: 0 15px;
+.col-4{
+  padding: 0 25px;
+  margin-top: -18px;
+}
 
-}
-.project-item h4{
-   padding: 0 15px;
-}
-.project-item p{
-   padding: 0 15px;
-   
-}
-.pox{
-  display: flex;
-}
+
 
 
 
