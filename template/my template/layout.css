@@ -5,6 +5,13 @@
 .container-full{
     width: 100%;
 }
+.qutu{
+   width: 1150px;
+   margin: 0 auto;
+}
+.box{
+   width: 1348px;
+}
 .row{
    display: flex;
    justify-content: space-between;
@@ -30,11 +37,10 @@
 }
 .col-6{
    width: calc('100%/12*6');
-   border: 2px solid red;
 }
 .col-7{
    width: calc('100%/12*7');
-   border: 2px solid red;
+   border: 1px solid red;
 }
 .col-8{
    width: calc('100%/12*8');

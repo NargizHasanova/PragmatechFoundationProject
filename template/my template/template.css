@@ -4,7 +4,7 @@
 }
 body{
     
-    font-family:  'Open Sans','Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 13px;
 }
 /*header part start*/
@@ -135,7 +135,45 @@ div.intro{
   padding: 0 25px;
   margin-top: -18px;
 }
+ /*comment section styles*/
+ .send{
+    margin-bottom: 4%;
 
+}
+
+.send input[type="text"],textarea{
+    border: solid 1px #c3c3c3;
+    margin-bottom: 2%;
+}
+.send input[type="text"] {
+    width: 98%;
+}
+.send textarea{
+    width: 624px;
+    height: 200px;
+}
+.send input[type="submit"] {
+    background-color: #7268ad;
+    padding: 3%;
+    color: white;
+    border-radius: 5px;
+}
+.tablica input[type="text"] {
+    width: 500px;
+}
+
+.tablica input[type="submit"] {
+    background-color: #7268ad;
+    padding: 3%;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.tablica textarea{
+    width: 516px;
+    height: 200px;
+}
 
 
 
