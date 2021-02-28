@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-    <link rel="stylesheet" type="text/css" href="template.css">
-    <link rel="stylesheet" type="text/css" href="layout.css">
+    <link rel="stylesheet" type="text/css" href="css/template.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
     <title>Ilk Tibbi Yardim</title>
   
 </head>
@@ -22,13 +22,13 @@
         </div>
         <div class="navbar-nav">
         <ul>
-          <li>Home</li>
+          <li style="color: #00bcd4;">Home</li>
           <li>About Us</li>
           <li>Services</li>
-          <li>Our Doctors</li>
-          <li>Timetable</li>
-          <li>Features</li>
-          <li>Blog</li>
+          <li>Our Doctors <i class="fas fa-chevron-down"></i></li>
+          <li>Timetable <i class="fas fa-chevron-down"></i></li>
+          <li>Features <i class="fas fa-chevron-down"></i></li>
+          <li>Blog <i class="fas fa-chevron-down"></i></li>
           <li>Contacts</li>
         </ul>
         </div>
@@ -65,19 +65,19 @@
     <div class="container">
     <div class="row">
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/insult.jpg">
         </div>
-      <div class="col-4">
-         <h3>Diagnosis With Precise</h3>
+      <div class="col-4 blog-content">
+         <h3>İnsult</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate. Aliquam malesuada tortor quis magna pretium sit amet rhoncus risus pretium.
              </p>
       </div>
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/infarkt.jpg">
       </div>
-      <div class="col-4">
-         <h3>Rehabilitation Therapy</h3>
+      <div class="col-4 blog-content">
+         <h3>İnfarkt</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Tənəffüs yoluna yad cismin düşməsi zamanı göstəriləcək ilk yardım qaydaları.Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate.
              </p>
@@ -85,19 +85,19 @@
     </div>
     <div class="row">
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/qida.jpg">
       </div>
-      <div class="col-4">
-         <h3>Diagnosis With Precise</h3>
+      <div class="col-4 blog-content">
+         <h3>Boğulma</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate. Aliquam malesuada tortor quis magna pretium sit amet rhoncus risus pretium.
              </p>
       </div>
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/siniq.jpg">
       </div>
-      <div class="col-4">
-         <h3>Rehabilitation Therapy</h3>
+      <div class="col-4 blog-content">
+         <h3>Sınıq</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate. Aliquam malesuada tortor quis magna pretium sit amet rhoncus risus pretium.
              </p>
@@ -105,19 +105,19 @@
     </div>
     <div class="row">
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/blood.jpg">
       </div>
-      <div class="col-4">
-         <h3>Diagnosis With Precise</h3>
+      <div class="col-4 blog-content">
+         <h3>Qanaxma</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate. Aliquam malesuada tortor quis magna pretium sit amet rhoncus risus pretium.
              </p>
       </div>
       <div class="col-2">
-        <img src="img/layout1.jpg">
+        <img src="img/epilepsiya.jpg">
       </div>
-      <div class="col-4">
-         <h3>Rehabilitation Therapy</h3>
+      <div class="col-4 blog-content">
+         <h3>Epilepsiya</h3>
              <h4>Industry leading examination of symptoms</h4>
              <p>Pellentesque habitant morbi tristique senectus netus et malesuada fames ac turpis egestas. Donec aliquet posuere vulputate. Aliquam malesuada tortor quis magna pretium sit amet rhoncus risus pretium.
              </p>
@@ -126,24 +126,94 @@
   </div>
   </section>
  <!-- layout-blog  section  end -->
- <!-- comment section start -->
- <!-- <section id="comment">
-   <div class="content">
-        
-        <p>comment</p>
-  
-        <div class="send send_contact"> 
-          <form method="post" action="#" id="contact">
-            <input type="text" name="review_name" placeholder="ваше имя">
-            <input type="text" name="review_email" placeholder="ваш email">
-            <textarea name="review_text"></textarea>
-            <input class="btn" type="submit" value="отправить">
-          </form>
-        </div>
-    </div>                
- </section> -->
- 
- <!-- comment section end -->
+ <!-- appointment section start -->
+ <section id="appointment">
+   <div class="container">
+     <div class="row">
+       <div class="col-4 column">
+         <h2>Appointment Request</h2>
+         <h4>Confirmation in 30 minutes</h4><hr>
+         <form action="" class="point">
+           <input type="text" required="" placeholder="Full Name(required)"><br>
+           <input type="e-mail" required="" placeholder="Your E-mail(required)"><br>
+           <input type="tel" placeholder="Phone Number"><br>
+           Select The Date <br>
+           <input type="date"><br>
+           Select Center <br>
+           <select name="" id="">
+             <option value="">option1</option>
+             <option value="">option2</option>
+             <option value="">option3</option>
+           </select><br> 
+           <button>SUBMIT REQUEST</button>
+         </form>
+       </div>
+       <div class="col-4 column">
+         <h2>Ask Our Doctor a Question</h2>
+         <h4>Receive Answer Absolutely Free</h4><hr>
+         <img src="img/doctors.jpg" alt="">
+         <p>What can I do to stay healthy? 
+         <p>Donec eu felis est. Fusce ut lectus et libero mollis dignissim et at urna.
+         Vivamus a dui id est viverra bibendum. <a href="">Read full answer →</a> </p>
+         <p> Could you suggest a good diet?</p>
+         Mauris eget diam nibh, at sollicitudin nunc. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco <a href="">Read full answer →</a></p>
+       </div>
+       <div class="col-4 column">
+         <h2>Useful Information</h2>
+         <h4>Some Frequently Requested Links</h4><hr>
+         <a href="">Why choose our clinic? →</a>
+         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse augue felis, tempor a pretium in, consectetur ac sapien.</p>
+         <a href="">Team of Professionals →</a>
+         <p>Cras scelerisque scelerisque feugiat. Pellentesque ultrices blandit porta.</p>
+         <a href="">Useful Resources →</a>
+         <p>Sed ac lorem in sem feugiat varius. Cras volutpat fringilla mauris, at aliquet ipsum scelerisque sed.</p>
+         <a href="">Jobs and Careers →</a>
+         <p>Praesent cursus congue ligula, dignissim pharetra eros sagittis at. Nulla a dui leo, ac sollicitudin lacus.</p>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- appointment section end -->
+ <!-- footer section start -->
+ <section id="footer">
+   <div class="container">
+     <div class="row">
+       <div class="col-3">
+         <h3>CONTACTS</h3>
+         <div><i class="fas fa-home"></i>Street, City, Country</div>
+         <div><i class="fas fa-phone"></i>1-800-200-8765</div>
+         <div><i class="fab fa-telegram-plane"></i>info@caremedical.com</div>
+         <div><i class="fab fa-skype"></i>care-skype-name</div>
+       </div>
+       <div class="col-3">
+         <h3>MEDICAL</h3>
+         <a href="">Clinics & Centers</a><hr>
+         <a href="">Conditions & Treatments</a><hr>
+         <a href="">Find a Doctor</a><hr>
+         <a href="">Get My Medical Records</a><hr>
+         <a href="">Medicare Plan Finder</a><hr>
+         <a href="">Orthopedic Care</a>
+       </div>
+       <div class="col-3">
+         <h3>COMMON LINKS</h3>
+         <a href="">Careers</a><hr>
+         <a href="">Donate</a><hr>
+         <a href="">Get Directions & Hours</a><hr>
+         <a href="">Hospital News</a><hr>
+         <a href="">Packages & Promotions</a><hr>
+         <a href="">Research & Innovations</a>
+       </div>
+       <div class="col-3">
+         <h3>CARE WORDPRESS THEME</h3>
+         <p>Care is a premium WordPress theme for doctors, dentists and health clinics, and is great for health related blogs. Available exclusively on Theme Forest.</p>
+         <p>All images used for preview are copyrighted by their respective owners.</p>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- footer section end -->
  
 </body>
 </html>
