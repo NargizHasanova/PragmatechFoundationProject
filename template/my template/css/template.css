@@ -138,16 +138,39 @@ div.intro{
   line-height: 16px;
 }
 /*introduction part end*/
-/*layout part start*/
+                                  /*layout part start*/
+.row{
+  width: 100%;
+}                                  
+.col-6{
+  display: flex;
+  margin: auto;
+  transition: all 1s ease;
+  width: 80%;
+}
+.col-6:hover{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  /*background: #77031E;*/
+  cursor: pointer;
+  color: white;
+}
+
+div .col-2{
+  height: 200px;
+  width:135px;
+}
 .col-2 img{
   height: 200px;
   width:135px;
   object-fit: cover;
-  
+
 }
 .blog-content{
   padding: 0 25px;
-  margin-top: -18px;
+}
+.blog-content h3{
+  margin-top: 0px;
 }
 /*appointment section styles*/
 .column{
