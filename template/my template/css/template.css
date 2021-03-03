@@ -238,7 +238,64 @@ a{
   color: #179BD8;
   text-decoration: none;
 }
-/*footer section styles*/
+                          /*insult section styles(about.html)*/
+.insult-blog{
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 0px 40px;
+}
+.sidebar,.insult-blog{
+  /*border: 1px solid green;*/
+  font-size: 1.1em;
+}
+.insult-text{
+  padding-right: 30px;
+}
+                               /*comment section styles(about.html)*/
+
+.comment-content h1{
+    text-align: left;
+    margin-left: 0px;
+}
+.comment-content hr{
+  width:462px;
+  margin-left: 0px; 
+}
+.comment-content {
+    padding: 105px;
+}
+.comment-content input{
+    width: 462px;
+    height: 45px;
+    border: 1px solid #D3D3D3;
+    margin-top: 20px;
+    outline: none;
+}
+.comment-content input:focus{
+  border: 1px solid gray;
+}
+.comment-content textarea{
+    width: 462px;
+    height: 215px;
+    margin-top: 20px;
+    border: 1px solid #D3D3D3;
+}
+.btn{
+    width: 142px;
+    height: 44px;
+    background: #00bcd4;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+    
+}
+.btn:hover{
+    color: white;
+    background: black;
+    transition: .33s all ease;
+}
+                               /*footer section styles*/
 #footer{
   background: #F5F5F5;
 }
@@ -259,6 +316,9 @@ div i{
   color: #999999;
   margin: 10px auto;
   line-height: 25px;
+}
+#ipad{
+  display: none;
 }
 /*device styles*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) /*ipad*/
