@@ -21,18 +21,15 @@ body{
   background-color: white;
   padding: 15px 0;
   color: black;
-  /*background: rgb(34,8,78);
-  background: linear-gradient(90deg, rgba(34,8,78,0.9) 0%, rgba(205,18,18,0.9) 51%, rgba(249,249,249,0.9) 100%);*/
 }
-
 .navbar{
-   /*width: 1000px;*/
-   margin: 0px 40px;
-   display: flex;
-   justify-content: space-between;
-   /*border: 1px solid red;*/
-   padding: 0px 0px;
-   align-items: center;
+ /*width: 1000px;*/
+ margin: 0px 40px;
+ display: flex;
+ justify-content: space-between;
+ /*border: 1px solid red;*/
+ padding: 0px 0px;
+ align-items: center;
 }
 .fa-bars{
   display: none;
@@ -117,14 +114,10 @@ body{
   background: #F7F7F7;
 }
 .imgPlusQuote{
-  
-  /*border: 1px solid red;*/
   display: flex;
   padding: 20px 20px ;
   margin:48px 185px;
-
 }
-
 .quote img{
   border-radius: 50%;
   width: 120px; 
@@ -133,7 +126,7 @@ div.intro{
   display: flex;
   align-items: center;
   color: #303036; 
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight: 400;
   color: black;
   margin-left: 25px;
@@ -238,19 +231,84 @@ a{
   color: #179BD8;
   text-decoration: none;
 }
-                          /*insult section styles(about.html)*/
-.insult-blog{
+                          /*insult section styles(about.html)*/                          
+.about-blog{
   display: grid;
   grid-template-columns: 70% 30%;
   margin: 0px 40px;
 }
-.sidebar,.insult-blog{
+.sidebar,.about-blog{
   /*border: 1px solid green;*/
   font-size: 1.1em;
 }
-.insult-text{
+.about-text{
   padding-right: 30px;
 }
+.sidebar h5{
+  padding: 10px;
+  margin: 0px;
+}
+.sidebar h5:hover{
+  
+  background: linear-gradient(0.25turn,#d7ebf7,#b1dffa,#91d6ff,#b1dffa,#d7ebf7);
+  background-position:250px; 
+  border-radius: 15px;
+  cursor: pointer;
+  
+  transition: all 1s ease;
+}
+.sidebar h5 a{
+  color: #013757;
+}
+.about-text h1{
+  color: #010638;
+}
+.insultulibka{
+  display: flex;
+  justify-content: space-between;
+  width: 780px;
+}
+.insultulibka img{
+  width: 40%;
+  object-fit: cover;
+}
+.el{
+  width: 780px;
+  display: flex;
+  justify-content: space-between;
+}
+.el img{
+  width: 30%;
+  height: 275px;
+}
+.dil img{
+  height: 230px;
+}
+/*infarkt section styles(about.html)*/
+.about-text span{
+  color: #E00606;
+  font-weight: bold;
+}
+.sine-kurek img,.nebz img{
+  height: 200px;
+  width: 40%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                                /*comment section styles(about.html)*/
 
 .comment-content h1{
