@@ -168,7 +168,7 @@ div .col-2{
 .blog-content h3{
   margin-top: 0px;
 }
-/*appointment section styles*/
+  /*appointment section styles*/
 .column{
   margin:30px 10px;
   width: calc(100%/3);
@@ -236,7 +236,6 @@ a{
   margin: 0px 40px;
 }
 .sidebar,.about-blog{
-  /*border: 1px solid green;*/
   font-size: 1.1em;
 }
 .about-text{
