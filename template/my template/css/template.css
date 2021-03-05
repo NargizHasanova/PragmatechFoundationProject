@@ -260,7 +260,7 @@ a{
 .sidebar h5 a{
   color: #013757;
 }
-.about-text h1{
+.about-text h1,.about-text h4{
   color: #010638;
 }
 .insultulibka{
@@ -294,6 +294,15 @@ a{
   width: 40%;
   object-fit: cover;
   border-radius: 10px;
+}
+.oskurek{
+  display: flex;
+  justify-content: space-between;
+}
+.oskurek img{
+  width: 30%;
+  object-fit: cover;
+  margin: 15px 0px;
 }
 
 
