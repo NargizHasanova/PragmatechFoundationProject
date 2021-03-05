@@ -161,7 +161,6 @@ div .col-2{
   height: 200px;
   width:135px;
   object-fit: cover;
-
 }
 .blog-content{
   padding: 0 25px;
@@ -173,7 +172,6 @@ div .col-2{
 .column{
   margin:30px 10px;
   width: calc(100%/3);
-  /*width: 100%;*/
 }
 .column h2{
   font-size: 20px;
