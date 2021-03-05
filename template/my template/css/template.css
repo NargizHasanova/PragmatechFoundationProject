@@ -98,11 +98,9 @@ body{
   color: #303036;
   line-height: 60px;  
   display: inline-flex;
-  /*align-items: center;*/
   position: absolute;
   left: 150px;
   top: 120px;
-  /*border: 1px solid green;*/
   padding: 25px 80px;
 }
 /*slider part end*/
@@ -152,7 +150,6 @@ div.intro{
   cursor: pointer;
   color: #00074C;
 }
-
 div .col-2{
   height: 200px;
   width:135px;
