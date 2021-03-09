@@ -2,10 +2,12 @@
 <html >
 <head>
   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/template.css">
-    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    
+    <link rel="stylesheet" type="text/css" href="css/layihe.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <!-- <link rel="stylesheet" type="text/css" href="layout.css"> -->
     <title>Ilk Tibbi Yardim</title>
   
 </head>
@@ -14,19 +16,16 @@
         <!--         header   section      start        -->
   <section id="header">
     <div class="header-info">
-      
-      <div class="navbar">
-        <div class="navbar-logo">
-          <img src="img/logo2.png" title="our logo">
-        </div>
+        <div class="navbar">
+          <div class="navbar-logo">
+            <img src="img/logo2.png" title="our logo">
+          </div>
         <div class="navbar-nav">
           <ul>
-            <li><a href="template.html"style="color: #00bcd4;">Home</a></li>
+            <li><a href="index.html"style="color: #00bcd4;">Home</a></li>
             <li>About Us</li>
             <li>Services</li>
             <li>Our Doctors <i class="fas fa-chevron-down"></i></li>
-            <li>Timetable <i class="fas fa-chevron-down"></i></li>
-            <li>Features <i class="fas fa-chevron-down"></i></li>
             <li>Blog <i class="fas fa-chevron-down"></i></li>
             <li>Contacts</li>
           </ul>
@@ -45,9 +44,9 @@
   <!--         header   section      end        -->
   <!--         slider   section      start        -->
   <section id="slider">
-      	<div class="slider-photo"></div>
-      	<div class="slider-content">
-      		<p>NATIONALLY KNOWN<br>DOCTORS</p>
+        <div class="slider-photo"></div>
+        <div class="slider-content">
+          <p>NATIONALLY KNOWN<br>DOCTORS</p>
         </div>
   </section>
   <!--         slider   section      end        -->
@@ -55,22 +54,22 @@
   <section id="introduction">
     <div class="imgPlusQuote">
       <div class="quote">
-      <img src="img/quote.jpg" alt="sekil">
+       <img src="img/quote.jpg" alt="sekil">
       </div>
       <div class="intro">Hər hansı zədə (əzilmə, sınıq, yanıq və s.) almış və ya qəfildən xəstələnmiş şəxsin həyatını xilas etmək və sağlamlığını bərpa etmək üçün ona göstərilmiş ilk həkiməqədər yardımın böyük əhəmiyyəti vardır. Hadisə yerində ( işdə, küçədə, evdə və s.) bir sıra sadə tədbirləri yubanmadan həyata keçirməklə ağır fəsadların və xoşagəlməz nəticələrin qarşısını almaq mümkündür. İlk tibbi yardım zədələnmə yerində təcili göstərilməlidir.
       </div>
     </div>
   </section>
   <!-- call to introduction section end -->
-  <!-- layout blog section start -->
+  <!--  blog section start -->
   <section id="blog">
     <div class="container">
-    <div class="row blog-row">
-      <div class="col-6">
-        <div class="col-2">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 bum">
+        <div class="photo">
             <img src="img/insult.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="about-insult.html" style="color: #00074C;">
             <h3>İnsult</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -80,11 +79,11 @@
 
         </div>
       </div>
-      <div class="col-6">
-        <div class="col-2">
+      <div class="col-xl-6 col-lg-6 col-md-6 bum">
+        <div class="photo">
           <img src="img/infarkt.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="about-infarkt.html" style="color: #00074C;">
             <h3>İnfarkt</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -94,12 +93,12 @@
         </div>
       </div>
     </div>
-    <div class="row blog-row">
-      <div class="col-6">
-        <div class="col-2">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="photo">
           <img src="img/qida.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="about-food-stuck.html" style="color: #00074C;">
            <h3>Boğulma</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -108,11 +107,11 @@
              </a>
         </div>
       </div>
-      <div class="col-6">
-        <div class="col-2">
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="photo">
           <img src="img/siniq.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="#" style="color: #00074C;">
            <h3>Sınıq</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -122,12 +121,12 @@
         </div>
       </div>
     </div>
-    <div class="row blog-row">
-      <div class="col-6">
-        <div class="col-2">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="photo">
           <img src="img/blood.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="#" style="color: #00074C;">
            <h3>Qanaxma</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -136,11 +135,11 @@
           </a>
         </div>
       </div>
-      <div class="col-6">
-        <div class="col-2">
+      <div class="col-xl-6 col-lg-6 col-md-6">
+        <div class="photo">
           <img src="img/epilepsiya.jpg">
         </div>
-        <div class="col-4 blog-content">
+        <div class="blog-content">
           <a href="#" style="color: #00074C;">
            <h3>Epilepsiya</h3>
                <h4>Industry leading examination of symptoms</h4><hr>
@@ -152,12 +151,12 @@
     </div>
   </div>
   </section>
- <!-- layout-blog  section  end -->
+ <!-- blog  section  end -->
  <!-- appointment section start -->
  <section id="appointment">
    <div class="container">
      <div class="row pre-footer">
-       <div class="col-4 column request">
+       <div class="col-xl-4 column request">
          <h2>Appointment Request</h2>
          <h4>Confirmation in 30 minutes</h4><hr>
          <form action="" class="point">
@@ -175,7 +174,7 @@
            <button>SUBMIT REQUEST</button>
          </form>
        </div>
-       <div class="col-4 column">
+       <div class="col-xl-4 column">
          <h2>Ask Our Doctor a Question</h2>
          <h4>Receive Answer Absolutely Free</h4><hr>
          <img src="img/doctors.jpg" alt="">
@@ -187,7 +186,7 @@
          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
          quis nostrud exercitation ullamco <a href="">Read full answer →</a></p>
        </div>
-       <div class="col-4 column useinfo">
+       <div class="col-xl-4 column useinfo">
          <h2>Useful Information</h2>
          <h4>Some Frequently Requested Links</h4><hr>
          <a href="">Why choose our clinic? →</a>
@@ -207,23 +206,23 @@
  <section id="footer">
    <div class="container">
      <div class="row">
-       <div class="col-3">
+       <div class="col-xl-3 col-md-6">
          <h3>CONTACTS</h3>
          <div><i class="fas fa-home"></i>Street, City, Country</div>
          <div><i class="fas fa-phone"></i>1-800-200-8765</div>
          <div><i class="fab fa-telegram-plane"></i>info@caremedical.com</div>
          <div><i class="fab fa-skype"></i>care-skype-name</div>
        </div>
-       <div class="col-3">
+       <div class="col-xl-3 col-md-6">
          <h3>MEDICAL</h3>
-         <a href="">Clinics & Centers</a><hr>
-         <a href="">Conditions & Treatments</a><hr>
-         <a href="">Find a Doctor</a><hr>
-         <a href="">Get My Medical Records</a><hr>
-         <a href="">Medicare Plan Finder</a><hr>
-         <a href="">Orthopedic Care</a>
+         <div><a href="">Clinics & Centers</a><hr></div>
+         <div><a href="">Conditions & Treatments</a><hr></div>
+         <div><a href="">Find a Doctor</a><hr></div>
+         <div><a href="">Get My Medical Records</a><hr></div>
+         <div><a href="">Medicare Plan Finder</a><hr></div>
+         <div><a href="">Orthopedic Care</a></div>
        </div>
-       <div class="col-3">
+       <div class="col-xl-3 col-md-6">
          <h3>COMMON LINKS</h3>
          <a href="">Careers</a><hr>
          <a href="">Donate</a><hr>
@@ -232,47 +231,30 @@
          <a href="">Packages & Promotions</a><hr>
          <a href="">Research & Innovations</a>
        </div>
-       <div class="col-3">
+       <div class="col-xl-3 col-md-6">
          <h3>CARE WORDPRESS THEME</h3>
+         <div>
          <p>Care is a premium WordPress theme for doctors, dentists and health clinics, and is great for health related blogs. Available exclusively on Theme Forest.</p>
          <p>All images used for preview are copyrighted by their respective owners.</p>
+         </div>
        </div>
-     </div>
+     </div2>
    </div>
  </section>
  <!-- footer section end -->
- <!-- grid footer mobile -->
- <section id="ipad">
-   <div class="grid">
-     <div style="line-height: 30px;">
-         <h3>CONTACTS</h3>
-         <div><i class="fas fa-home"></i>Street, City, Country</div>
-         <div><i class="fas fa-phone"></i>1-800-200-8765</div>
-         <div><i class="fab fa-telegram-plane"></i>info@caremedical.com</div>
-         <div><i class="fab fa-skype"></i>care-skype-name</div>
-     </div>
-     <div>
-       <h3>MEDICAL</h3>
-         <a href="">Clinics & Centers</a><hr>
-         <a href="">Conditions & Treatments</a><hr>
-         <a href="">Find a Doctor</a><hr>
-         <a href="">Get My Medical Records</a><hr>
-         <a href="">Medicare Plan Finder</a><hr>
-         <a href="">Orthopedic Care</a>
-     </div>
-     <div>
-         <h3>COMMON LINKS</h3>
-         <a href="">Careers</a><hr>
-         <a href="">Donate</a><hr>
-         <a href="">Get Directions & Hours</a><hr>
-         <a href="">Hospital News</a><hr>
-         <a href="">Packages & Promotions</a><hr>
-         <a href="">Research & Innovations</a>
-     </div>
-     <div>
-         <h3>CARE WORDPRESS THEME</h3>
-         <p>Care is a premium WordPress theme for doctors, dentists and health clinics, and is great for health related blogs. Available exclusively on Theme Forest.</p>
-         <p>All images used for preview are copyrighted by their respective owners.</p>
+ <!-- footer-pro section start -->
+ <section id="footer-pro">
+   <div class="container">
+     <div class="row foot-bottom">
+       <div class="col-6">© 2017 Care Medical Center</div>
+       <div class="col-6 sitemap">
+         <ul>
+           <li><a href="">Home</a> /</li>
+           <li><a href="">Sitemap</a> /</li>
+           <li><a href="">F.A.Q</a> /</li>
+           <li><a href="">Contacts</a></li>
+         </ul>
+       </div>
      </div>
    </div>
  </section>
