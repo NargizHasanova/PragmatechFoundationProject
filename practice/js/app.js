@@ -59,10 +59,19 @@ numbers(8)
 numbers(9)
 numbers(10)
 
+//tapsiriq 3+5=8 yaz,basqa deyerlerde vere bilersen
 
+a=3
+b=5
+c=a+b
+console.log(a+'+'+b+'='+c)
 
+//bir nece deyeri bir deyisenin icine yazmaq
+let isim='nara',soyisim='hesenova',age=24
+console.log(age)
 
-
+let reqem=chislo=numberr=33
+console.log(chislo)
 
 
 
