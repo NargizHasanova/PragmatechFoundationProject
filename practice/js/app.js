@@ -43,6 +43,21 @@ const person={
 console.log(person)
 console.log(person.married)
 
+//tapsiriq 1-den 10-a qeder reqemleri consolda cixarmaq 
+ function numbers(a){
+ 	console.log(a)
+    a++;  
+}
+numbers(1)
+numbers(2)
+numbers(3)
+numbers(4)
+numbers(5)
+numbers(6)
+numbers(7)
+numbers(8)
+numbers(9)
+numbers(10)
 
 
 

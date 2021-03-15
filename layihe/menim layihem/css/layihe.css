@@ -226,7 +226,7 @@ a{
 .sidebar h5 a{
   color: #013757;
 }
-.about-text h1,.about-text h4{
+.about-text h1,.about-text h4,h3{
   color: #010638;
 }
 .insultulibka{
@@ -269,6 +269,13 @@ a{
   width: 30%;
   object-fit: cover;
   margin: 15px 0px;
+}
+/*about-boneinjury section styles*/
+.shina img{
+  height: 210px;
+  width: 48%;
+
+  /*object-fit: cover;*/
 }
                                /*comment section styles(about.html)*/
 
