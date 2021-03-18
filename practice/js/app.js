@@ -136,6 +136,22 @@ let bilgiler=new ornek();
 document.write(bilgiler.ad)
 
 
+let nesne={
+	name:'nargiz',
+	surname:'hesenova',
+	age:24,
+	occupation:'doctor',
+	married:false,
+	livingPlace:'Baku',
+	warning(){                
+		let language=['az','ru','en'];
+		return language;
+    }
+}
+document.write(nesne.name + " "+nesne.surname + '<br>');
+let blah=nesne.warning();
+document.write(blah)
+
 
 
 
