@@ -145,14 +145,17 @@ let nesne={
 	livingPlace:'Baku',
 	warning(){                
 		let language=['az','ru','en'];
-		return language;
+		document.write(language);
     }
 }
-document.write(nesne.name + " "+nesne.surname + '<br>');
-let blah=nesne.warning();
-document.write(blah)
+document.write(nesne.name + " " + nesne.surname + '<br>');
+nesne.warning()
 
 
+function changeColor (newColor) {
+		let elem = document.getElementById("ozel");
+		elem.style.color = newColor;
+	}
 
 
 
