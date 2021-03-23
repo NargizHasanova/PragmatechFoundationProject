@@ -204,17 +204,17 @@ a{
   grid-template-columns: 70% 30%;
   margin: 0px 40px;
 }
-.sidebar,.about-blog{
+#sidebar,.about-blog{
   font-size: 1.1em;
 }
 .about-text{
   padding-right: 30px;
 }
-.sidebar h5{
+#sidebar h5{
   padding: 10px;
   margin: 0px;
 }
-.sidebar h5:hover{
+#sidebar h5:hover{
   
   background: linear-gradient(0.25turn,#d7ebf7,#b1dffa,#91d6ff,#b1dffa,#d7ebf7);
   background-position:250px; 
@@ -223,7 +223,7 @@ a{
   
   transition: all 1s ease;
 }
-.sidebar h5 a{
+#sidebar h5 a{
   color: #013757;
 }
 .about-text h1,.about-text h4,h3{
@@ -281,6 +281,8 @@ a{
 .artery img{
   width: 100%;
 }
+/*siyahi section device*/
+
                                /*comment section styles(about.html)*/
 
 .comment-content h1{
@@ -309,6 +311,10 @@ a{
     height: 215px;
     margin-top: 20px;
     border: 1px solid #D3D3D3;
+    outline: none;
+}
+.comment-content textarea:focus{
+  border: 1px solid gray;
 }
 .btn{
     width: 142px;
@@ -403,7 +409,21 @@ div i{
   #footer-pro .col-6{
     padding: 0px;
   }
-
+  #sidebar{
+    display: none;
+  }
+  .siyahi{
+    display: initial !important;
+    /*border: 1px solid gray;*/
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+  }
+  
+  
+}
 
 }
 @media only screen and (min-width: 768px) and (max-width: 979px){
