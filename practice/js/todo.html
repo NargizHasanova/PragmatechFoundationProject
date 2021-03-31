@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/todo.css">
+	<script src="https://kit.fontawesome.com/25650cf128.js" crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+<body>
+	<h1>MY TO DO LIST</h1>
+	<div class="obsiy">
+		<div class="show showSeher">9AM-11AM<i class="fas fa-plus-circle"></i></div>
+		<div class="hide hideSeher">
+		    <ol>
+				<li>yuxudan oyanmaq</li>
+				<li>online derse qosulmaq</li>
+				<li>2 saat erzinde derse qulag asmaq</li>
+		    </ol><i class="fas fa-minus-circle minusSeher"></i>
+		</div>
+		<div class="show showGunorta">11AM-6PM<i class="fas fa-plus-circle"></i></div>
+		<div class="hide hideGunorta">
+			<ol>
+				<li>ise getmek</li>
+				<li>isden qayitmaq</li>
+				<li>ders oxumaga baslamaq(2saat)</li>
+				<li>yatib dincelmek</li>
+		    </ol><i class="fas fa-minus-circle minusGunorta"></i>
+		</div>
+		<div class="show showAxsam">6PM-12AM<i class="fas fa-plus-circle"></i></i></div>
+		<div class="hide hideAxsam">
+			<ol>
+				<li>axsam yemeyi bisirmek</li>
+				<li>evde idman elemek</li>
+				<li>survivora baxmaq</li>
+				<li>ders oxumaq(3saat)</li>
+				<li>yatmaq</li>
+			</ol><i class="fas fa-minus-circle minusAxsam"></i>
+		</div>
+	</div>
+<script>
+	let showSeher=document.querySelector('.showSeher');
+	let showGunorta=document.querySelector('.showGunorta');
+	let showAxsam=document.querySelector('.showAxsam');
+	let hideSeher=document.querySelector('.hideSeher');
+	let hideGunorta=document.querySelector('.hideGunorta');
+	let hideAxsam=document.querySelector('.hideAxsam');
+	let minusSeher=document.querySelector('.minusSeher');
+	let minusGunorta=document.querySelector('.minusGunorta');
+	let minusAxsam=document.querySelector('.minusAxsam');
+	
+
+
+showSeher.addEventListener('click',function(){
+	hideSeher.style.display = 'block';
+});
+showGunorta.addEventListener('click',function(){
+	hideGunorta.style.display = 'block';
+});
+showAxsam.addEventListener('click',function(){
+	hideAxsam.style.display = 'block';
+});
+
+
+minusSeher.addEventListener('click',function(){
+	hideSeher.style.display = 'none';
+});
+minusGunorta.addEventListener('click',function(){
+	hideGunorta.style.display = 'none';
+});
+minusAxsam.addEventListener('click',function(){
+	hideAxsam.style.display = 'none';
+});
+
+
+</script>	
+</body>
+</html>

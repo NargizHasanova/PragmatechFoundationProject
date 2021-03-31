@@ -1,0 +1,33 @@
+
+h1{
+	text-align: center;
+	color: darkblue;
+}
+.hide{
+	display: none;
+}
+.obsiy div{
+	border: 1px solid gray;
+	text-align: center;
+	margin:0 100px;
+	background: #DFDFDF;
+	padding: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+	position: relative;
+}
+.fa-plus-circle,.fa-minus-circle{
+	position: absolute;
+	right: 20px;
+	bottom: 5px;
+
+	
+	font-size: 50px;
+	color: darkblue;
+	cursor: pointer;
+}
+
+
+
+
+
