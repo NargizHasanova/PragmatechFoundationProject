@@ -15,6 +15,7 @@ h1{
 	font-weight: bold;
 	margin-top: 5px;
 	position: relative;
+	cursor: pointer;
 }
 .fa-plus-circle,.fa-minus-circle{
 	position: absolute;
@@ -26,6 +27,7 @@ h1{
 	color: darkblue;
 	cursor: pointer;
 }
+
 
 
 
