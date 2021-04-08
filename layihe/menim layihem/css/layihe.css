@@ -56,16 +56,29 @@ nav{
   display: none;
 }
 .category{
-  width:200px;
-  background: lightgray;
-  display: block;
+  width:250px;
+  background: #6C9FBE;
   position: absolute;
   z-index: 1;
   padding: 10px;
+  border-top: 2px solid blue;
+  margin-top: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
 }
 .category a{
-  display: inline-block;
+  display: block;
   line-height: 25px;
+  color: white !important;
+  padding: 8px;
+  border-radius: 10px;
+}
+.category a:hover{
+  background: #5B88A3;
+  color: white;
+}
+.category-show{
+  display: block;
 }
 /*header part end*/
 /*slider part start*/
@@ -127,13 +140,11 @@ nav{
   margin: 20px auto;
 }
 .single-blog{
-  
   flex-basis: 32%;
   display: flex;
   margin-top: 20px;
   overflow: hidden;
-  border-radius: 15px;
-  /*padding: 10px 30px !important;*/
+  /*border-radius: 15px;*/
   height: ;
 }
 .blog-img{
@@ -143,18 +154,20 @@ nav{
   width: 135px;
   height: 100%;
   object-fit: cover;
-  border-radius: 15px 0 0 15px;
+  border-radius: 15px 0 0 0;
   transition: .3s;
 }
 .single-blog:hover .blog-img img{
   transform: scale(1.1);
+  /*border-radius: 15px 0 0 0; niye islemir bilmirem*/
 }
 .blog-content{
   padding: 0 10px;
-  background: /*#C02E1D*/#6C9FBE;
-  border-radius: 0 15px 15px 0;
+  background: #6C9FBE;
+  border-radius: 0 0 15px 0;
   position: relative;
   transition: all ease 0.2s;
+  border-top: 2px solid blue;
 }
 .blog-content:hover{
   background: #5B88A3;

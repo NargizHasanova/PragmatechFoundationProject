@@ -30,3 +30,17 @@ leftBtn.addEventListener('click',function(){
 	});
 		
 })
+
+// drop-down menu
+let categories=document.querySelector('#category-list');
+let blogDropBtn=document.querySelector('#BlogDropBtn');
+
+if (categories.classList.contains("category-show")) {
+
+	dropBtn.addEventListener('click',function(){
+		categories.classList.remove("category-show");
+	})}
+	else {
+		blogDropBtn.addEventListener('click',function(){
+		categories.classList.toggle("category-show");
+	})}
