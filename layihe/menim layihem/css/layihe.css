@@ -520,7 +520,6 @@ div i{
   }
   .siyahi{
     display: initial !important;
-    /*border: 1px solid gray;*/
     display: flex !important;
     align-items: center;
     justify-content: center;
@@ -529,8 +528,6 @@ div i{
   }
   
   
-}
-
 }
 @media only screen and (min-width: 768px) and (max-width: 979px){
   .photo{
