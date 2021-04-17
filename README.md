@@ -31,7 +31,7 @@ operator üstünlüyü deməkdir.Kodun oxunması zamanı bir operand digər oper
 
 ## Automatic Type Conversion ve Type Conversion Methodlar arasındakı fərqləri izah edin.
 
-Fərq ondadırki automatic type-da conversion avtomatik olur.
+Fərq ondadırki automatic type-da conversion avtomatik olur.Yəni bizim type deyisdirmek üçün əlavə bir kod yazmağa ehtyyacımız olmur.
 
 # Python
 
