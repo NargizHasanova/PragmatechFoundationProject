@@ -32,3 +32,37 @@ operator üstünlüyü deməkdir.Kodun oxunması zamanı bir operand digər oper
 ## Automatic Type Conversion ve Type Conversion Methodlar arasındakı fərqləri izah edin.
 
 Fərq ondadırki automatic type-da conversion avtomatik olur.
+
+# Python
+
+## CMD command line
+
+Командная строка windows - это отдельное ПО, которое входит в состав Операционной Системы и обеспечивает взаимосвязь между пользователем и ОС.Командная строка запускается в своей оболочке и предназначена для более опытных пользователей и помогает в таких сложных ситуациях, когда другие команды уже не работают. Например, через командную строку вводят команды в случае заражения вирусами или "поломки" системных файлов, а так же восстановление windows.
+
+### cmd basic commands
+- cd (cd foo)
+Change Directory.Change your current directory to the destination specified within the command. Say you want to go to a folder named 'foo', you type: cd foo
+- cd .. (cd ..)
+(To head back to the previous directory or go one level up of the current directory)
+- mkdir (mkdir foo).This command creates a new directory with the specified name.
+- rmdir (rmdir directoryname) Deletes a directory.
+- copy(copy index.html about.html) Type cp command or copy, if you want to copy a file or folder
+- dir You can use the DIR command to list the files and folders in the directory.
+
+## INPUT,ALGORITHM,OUTPUT
+
+We often have a need to interact with users, either to get data or to provide some sort of result. Most programs today use a dialog box as a way of asking the user to provide some type of input. While Python does have a way to create dialog boxes, there is a much simpler function that we can use. Python provides us with a function that allows us to ask a user to enter some data and returns a reference to the data in the form of a string. The function is called input.
+
+Python’s input function takes a single parameter that is a string. This string is often called the prompt because it contains some helpful text prompting the user to enter something. For example, you might call input as follows:
+
+aName = input('Please enter your name: ')
+
+## Her hanisa proqramlasdirma dili oyrendikde nelere diqqet elemeliyik:
+
+- variable
+- data type
+- operators
+- conditions
+- loops
+- data structute(array,object)
+- functions
