@@ -66,3 +66,10 @@ aName = input('Please enter your name: ')
 - loops
 - data structute(array,object)
 - functions
+
+## OOP nedir?
+Obyektler arasinda unsiyyetin temin olunmasi ile her hansisa bir proqramin yazilmasini temin eden bir proqramlasdirma metodudur.
+
+## constructor-object istehsal eden funksiyadir
+
+
