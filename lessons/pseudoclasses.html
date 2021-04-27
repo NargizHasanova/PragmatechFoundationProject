@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pseudo classes</title>
+</head>
+<style>
+	/*acilmamis linke stil verir*/
+	a:link{
+		color: red;
+	}
+	/*acdigimiz(visit olunmus) linke stil verir*/
+	a:visited{
+		color:gray;
+	}
+	/*kursoru ustune getirende isleyir*/
+	a:hover{
+	    font-size: 15px;
+	}
+	/*klik eden an stil aktivlesir*/
+	a:active{
+		background-color: orange;
+	}
+	/*klik edennen sonra stil aktivlesir(focuslandiqdan sonra)*/
+	div:focus,input.first:focus{
+		outline: none ;
+        border:2px solid #5DFF00; 
+	}
+	/*kokde olan(html)elemente stil verir*/
+	:root{
+		background-color: #DFE0C7;
+	}
+	/*hedef olan elemente(ul) stil verir*/
+    ul:target{
+    	color: white;
+    	background-color: #C12C95;
+    }
+    /*bos olan yerlere stil verir( meselen bos input)*/
+    :empty{
+        background-color: #BBB3D6;
+    }
+    /*icinde hecne yaza bilmediyimiz inputda(disabled ozelliyi olan) stil verir*/
+    input.second:disabled{
+    	
+    	border-color: #01C17B;
+    }
+    /*icinde yaza bildiyimiz inputda stil verir,ve ":read-write" pseudo sinifle eynidi*/
+    input.second:enabled{
+    	border-color: yellow;
+    }
+    /*icinde hecne yaza bilmediyimiz inputda(readonly ozelliyi olan) stil verir*/
+    input.second:read-only{
+    	border-radius: 10px 10px 10px 10px;
+    }
+    /*require atr olan inputda stil verir,the opposite is":optional"*/
+    input.special:required{
+    	border-color: red;
+    }
+    /*misal mail duzgun yazilirsa(@istifade olunursa)verdiyimiz stil gorsenir*/
+    input.duzgun:valid{
+        border-color: #5DFF00;
+    }
+    /*misal mail duzgun yazilmirsa(@istifade olunmursa)verdiyimiz stil gorsenir*/
+    input.duzgun:invalid{
+        border-color: red;
+    }
+    /*klik olunmus,secilmis optiona stil verir*/
+    :checked{
+    	width: 20px;
+    	height: 20px;
+    }
+    /*verilen reqem siralamasinin daxilindedirse stil isleyir*/
+    input.comment6:in-range{
+          color: green;
+    }
+    /*verilen reqem siralamasinin colundedirse stil isleyir*/
+    input.comment6:out-of-range{
+        color: red;
+    }
+    /*bir ustdeki tag-a qalxib(body) ilk <p> tagini secir ve stil verir(eksi ":last-of type")*/
+    p:first-of-type{
+        background-color: red;
+    }
+    /*bir ustdeki tag-a qalxib(<body>),<body> tag-in ilk altdaki tagi <p> olarsa yalniz o halda stil verir
+    eksi "last-child"*/
+
+    p:first-child{
+        color: green; /*stil islemeyecek,cunki <body> sonrasi ilk tag <p> tagi deyil <a>dir.<p> taglarini
+        bir <div>-e yerlesdirseydik o zaman stil kecerli olacaqdi*/
+    }
+
+</style>
+
+<body>
+<a href="https://www.google.com/search"> Google </a><br> 
+<a href="https://yandex.ru/">Yandex</a><br>
+<a href="https://www.facebook.com/">Facebook</a><br>
+
+<input class="first" type="text"><br>
+<input class="first" type="text"><br>
+<input class="first" type="text"><br>
+
+<div tabindex="1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+<div tabindex="3">Tenetur dicta tempora, sit necessitatibus. Maiores quia autem officiis culpa fugit, voluptas quasi nulla qui aut dolore earum. </div>
+<div tabindex="2">Unde, perspiciatis reiciendis doloremque!</div>
+
+
+<a href="#hedef">Nergiz Hesenova</a><br>
+<a href="#search">Samir Kerimov</a>
+
+<ul id="hedef">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PHP</li>
+    <li>PHYTON</li>
+</ul>
+
+<ul id="search">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>PHP</li>
+    <li>PHYTON</li>
+</ul>
+
+comment1<input class="second" type="text" disabled="" placeholder="it's disabled"><br>
+comment2<input class="second" type="text" readonly="" placeholder="readonly"><br>
+comment3<input class="second" type="text"><br>
+comment4<span style="color: red;">*</span><input class="special" type="text" required=""><br>
+comment5<input class="duzgun" type="email"><br>
+comment6<input class="comment6" type="number" min="1" max="5"><br>
+option1<input class="second" type="checkbox">first option<br>
+option2<input class="second" type="checkbox">second option<br>
+
+<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ut sed doloremque, sunt laudantium impedit animi nesciunt atque quibusdam, aperiam, quam exercitationem magnam iure! Cum quae animi voluptates iusto aspernatur omnis.</p>
+<p> quam exercitationem magnam iure! Cum quae animi voluptates iusto aspernatur omnis.</p>
+<p> quam exercitationem magnam iure! Cum quae animi voluptates iusto aspernatur omnis.</p>
+
+
+</body>
+</html>
