@@ -3,14 +3,15 @@
 ## Translator ve assebler nədir? Compiler və interpreter ilə aralarındakı fərqlər nələrdir?
 Kompyuter prosessoru ancaq maşın dilini anlaya bilir(machine language).Yəni 0 və 1-ləri.
 Language translator isə bizim hər hansısa proqramlaşdırılma dilində yazdığımız kodu machine language-in anlamağı üçün tercume edir.
+
 ### Language translator-ların növləri
 - compiler
 - interpreter
 Compiler high-level language-i(insan dilinə ən yaxın dil) machine language-e translate edir.Compiler bütün kodu birdən yoxlayır və agər səhv taparsa hec bir kodu calışdırmır.(C#)
-İnterpreter isə hər bir sətri sıra ilə oxuyub ekranda calışdırır,hər hansısa bir səhv(error) qarşısına cıxana qədər(Javascript,PHP).Bizim isletdiyimiz brauzer ele interpretatordu.Assembler-proqram transyatorudu,assembler dilindəki mətnin maşın dilindəki proqrama.
+İnterpreter isə hər bir sətri sıra ilə oxuyub ekranda calışdırır,hər hansısa bir səhv(error) qarşısına cıxana qədər(Javascript,PHP). Bizim isletdiyimiz brauzer ele interpretatordu.Assembler-proqram transyatorudu,assembler dilindəki mətnin maşın dilindəki proqrama.
 
 ## Rəqəm və ədədlərin maşın dilinə tərcümə olunma prosesini bilirik. Bəs hərflər və simvollar necə tərcümə olunur?
-ASCII vasitəsi ilə.ASCII(American standard code for information interchange)- amerikalıların icra etdiyi hərflər və simvollar üçün bir kod standartıdı 
+ASCII vasitəsi ilə.ASCII(American standard code for information interchange)- amerikalıların icra etdiyi hərflər və simvollar üçün bir kod standartıdı .
 
 
 ## Günümüzdə istifadə olunan Js,PHP,Python və C# dillərində ortaq istifadə olunan data növləri hansılardır və qısaca izahatlarını yazın
