@@ -3,6 +3,8 @@ x=range(1,101)
 for item in x:
     if item%2==1:
         print(item)
+
+
     
     
 
