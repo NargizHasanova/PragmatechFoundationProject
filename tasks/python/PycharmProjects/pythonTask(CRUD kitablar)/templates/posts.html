@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+This is posts page
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+<h1>Kitabların siyahısı</h1>
+{% if articles|length > 0 %}
+    {% for el in articles %}
+    <div class="alert alert-info">
+        <h3>Book Name: {{ el.title }}</h3>
+        <h3>Price: {{ el.intro }}</h3>
+        <h3>Author: {{ el.text }}</h3>
+        <a href="/posts/{{ el.id }}/update"class="btn btn-success">Update</a>
+        <a href="/posts/{{ el.id }}/del"class="btn btn-danger">Delete</a>
+    </div>
+    {% endfor %}
+{% else %}
+    <p>Kitab siyahısı boşdur.Zəhmət olmasa kitab əlavə edin!</p>
+{% endif %}
+
+</div>
+{% endblock %}
