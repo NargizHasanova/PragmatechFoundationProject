@@ -68,9 +68,20 @@ aName = input('Please enter your name: ')
 - data structute(array,object)
 - functions
 
-## OOP nedir?
+## OOP nedir?(Object-oriented programming)
+Obyekte yonelmis proqramlasdirma metodudur.
 Obyektler arasinda unsiyyetin temin olunmasi ile her hansisa bir proqramin yazilmasini temin eden bir proqramlasdirma metodudur.
 
-## constructor-object istehsal eden funksiyadir
+## constructor nədir?
+constructor objectin icinde istifade etdiyimiz __init__ metodudur
+class Person:  
+      
+    # init method or constructor   
+    def __init__(self, name):  
+        self.name = name  
+      
+    # Sample Method   
+    def say_hi(self):  
+        print('Hello, my name is', self.name) 
 
 
