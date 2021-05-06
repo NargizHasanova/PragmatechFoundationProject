@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+    <script type="text/javascript" src="static/js/layihe.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/css/layihe.css">
+    <title>Ilk Tibbi Yardim</title>
+</head>
+
+<body>
+<!-- Header Part Start -->
+<section id="header">
+<header>
+      <img class="logo" src="/static/img/logo2.png" title="our logo">
+      <nav>
+        <ul class="navul">
+          <li><a href="/" style="color: #00bcd4;">ƏSAS</a></li>
+          <li><a href="/about-us">HAQQIMIZDA</a></li>
+          <li class="BlogDropBtn"><a id="BlogDropBtn" href="#">BLOG <i class="fas fa-chevron-down"></i></a>
+          <span id="category-list" class="category">
+              <a href="">Qan-damar sistemi</a>
+              <a href="">Əzələ sistemi</a>
+              <a href="">Dayaq-hərəkət sistemi</a>
+              <a href="">Sinir sistemi</a>
+              <a href="">Həzm sistemi</a>
+              <a href="">Tənəffüs sistemi</a>
+          </span></li>
+          <li><a href="/blog-form">MƏQALƏ ƏLAVƏ ET</a></li>
+          <li><a href="">ƏLAQƏ</a></li>
+          <input type="text" class="axtar" autocomplete="on" placeholder="AXTAR">
+          <a href=""><i class="fas fa-search"></i></a>
+        </ul>
+      </nav>
+</header>
+</section>
+<!-- Header Part End -->
+
+<div class="container-form" style="margin: 50px 150px;">
+  <form method="post">
+    <div class="form-group">
+      <label for="title">Məqalə başlığı</label>
+      <input type="text" name="title" id="title" class="form-control" value="{{ article.title }}" placeholder="title">
+    </div>
+    <div class="form-group">
+      <label for="text">Məqaləni burdan dəyişdirin</label>
+      <textarea name="text" id="text" class="form-control" placeholder="text" rows="11">{{ article.text }}</textarea>
+    </div>
+    <input type="submit" class="btn" value="Düzəliş et">
+  </form>
+</div>
+<section id="footer">
+  <div class="footer">
+    <p>© 2021 Copyright:<span> İLK TİBBİ YARDIM</span></p>
+  </div>
+ </section>
+</body>
+</html>

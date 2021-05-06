@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+This is create-article page
+{% endblock %}
+
+{% block body %}
+<div class="container mt-5">
+<h1>Məqalə əlavə et</h1>
+    <form method="post">
+        <input type="text" name="title" id="title" class="form-control" placeholder="Başlıq"><br>
+        <textarea name="text" id="text" class="form-control" placeholder="Məqalənizi bura yerləşdirin"></textarea><br>
+        <input type="submit" class="btn btn-success" value="Əlavə Et">
+    </form>
+</div>
+{% endblock %}
