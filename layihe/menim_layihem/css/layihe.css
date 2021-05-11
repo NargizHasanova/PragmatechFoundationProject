@@ -245,6 +245,20 @@ nav{
   position: relative;
   z-index: 1;
 }
+.drown{
+  background-image: url(../img/su.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.glicemia{
+  background-image: url(../img/glicemia.jpg);
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
 .blog-main-right-up::after{
   content: '';
   position: absolute;
