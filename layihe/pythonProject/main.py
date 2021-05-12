@@ -52,6 +52,16 @@ def about_insult():
     return render_template('about-insult.html')
 
 
+@app.route(('/about-drowning'))
+def about_drowning():
+    return render_template('about-drowning.html')
+
+
+@app.route(('/about-glicemia'))
+def about_glicemia():
+    return render_template('about-glicemia.html')
+
+
 @app.route(('/about-us'))
 def about_us():
     return render_template('about-us.html')
