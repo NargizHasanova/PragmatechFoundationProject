@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -84,6 +82,7 @@ nav img{
     text-decoration: none;
     border: 1px solid #fff;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 .hero-btn:hover{
     border-color: #f44336;
@@ -127,6 +126,9 @@ nav img{
     }
     #cta h1{
         font-size: 26px !important;
+    }
+    #about-header h1{
+        font-size: 24px !important;
     }
     
 
@@ -323,7 +325,63 @@ nav img{
 .red-btn:hover{
     color: #fff;
 }
-
+/* -----------------------------------blog page-------------------------------------------- */
+#blog{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+.left{
+    flex-basis: 65%;
+}
+.left img{
+    width: 100%;
+}
+.left h2{
+    margin: 30px 0;
+    font-weight: 600;
+    color: #222;
+}
+.left p{
+    padding: 0;
+}
+.right{
+    flex-basis: 32%;
+    margin-top: 10px;
+}
+.form{
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+.form input,.form textarea{
+    width: 100%;
+    outline: none;
+    background: #f0f0f0;
+    border: none;
+    margin: 15px 0;
+    padding: 10px;
+}
+.blog-btn{
+    margin: 10px 0;
+    letter-spacing: normal;
+}
+.right h3{
+    background: #f44336;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600 ;
+    padding: 7px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.right li{
+    list-style: none;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
 
 
 
