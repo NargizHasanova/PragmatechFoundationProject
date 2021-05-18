@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-collapse{
+    flex-grow: initial;
+}
+.nav-item{
+    text-align: center;
+    margin: 20px;
+}
+.nav-link{
+    display: inline-block;
+    font-weight: bold;
+}
+.navbar-toggler{
+    outline: none;
+    border: none;
+}
+#service{
+    min-height: 100vh;
+    background: #6900d1;
+}
+.navbar-brand img{
+    width: 125px;
+}
+.nav-item a{
+    color: #fff !important;
+    font-size: 12px;
+    padding: 0 0 5px 0 !important;
+    
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background-color: #fff;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+.nav-item:hover::after{
+    width: 100%;
+}
+.banner{
+    margin-top: 8%;
+    color: #fff;
+}
+.banner h1{
+    margin: 20px 0 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+.banner img{
+    height: 72vh;
+    object-fit: cover;
+}
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #6900d1;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+.express-btn{
+    background: #fff !important;
+    color: #000 !important;
+    margin-right: 5px;
+}
+@media(max-width:500px){
+    .banner img{
+        height: 47vh;
+    }
+    .banner h1{
+        font-size: 38px;
+        text-align: center;
+    }
+    .banner p{
+        font-size: 13px;
+        text-align: center;
+    }
+    .banner a{
+        display: block;
+        margin: 20px auto;
+    }
+    .nav-link {
+        font-size: 20px !important;
+    }
+    .nav-item{
+        margin: 13px;
+        font-weight: bold;
+        
+    }
+    .active-home{
+        border-bottom: none;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:768px){
+    .banner img{
+        height: 56vh;
+        margin-top: 55px;
+    }
+    .nav-link{
+        font-weight: bold;
+    }
+    .nav-item{
+        margin: 12px;
+    }
+}
