@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 .navbar-collapse{
     flex-grow: initial;
@@ -18,7 +19,7 @@
     outline: none;
     border: none;
 }
-#service{
+#header{
     min-height: 100vh;
     background: #6900d1;
 }
@@ -105,6 +106,18 @@
         border-bottom: none;
         margin-top: 20px;
     }
+    #feature img{
+        width: 100% !important;
+    }
+    .fa-play-circle{
+        left: 50% !important;
+    }
+    #feature{
+        margin: 75px 0 !important;
+    }
+    #feature h2{
+        margin-top: 75px !important;
+    }
 }
 @media only screen and (min-width:500px) and (max-width:768px){
     .banner img{
@@ -117,4 +130,226 @@
     .nav-item{
         margin: 12px;
     }
+    #feature img{
+        width: 100% !important;
+    }
+    .fa-play-circle{
+        left: 50% !important;
+    }
+}
+
+/* ----------------service---------------- */
+#service{
+    margin: 75px 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.subtitle{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 17px;
+}
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.service-box img{
+    width: 60px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    padding: 15px;
+    border: 2px solid #6900d1;
+    border-radius: 10px;
+    color: #6900d1;
+    background: #fff;
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.service-box p{
+    font-size: 14px;
+    color: #777;
+}
+.fa-arrow-right{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.service-box:hover,.active-service{
+    color: #fff;
+    background: #6900d1;
+    border-radius: 5px;
+    box-shadow: 0 15px 15px 2px rgba(213, 213, 213, 0.5);
+}
+.service-box:hover p,.active-service p{
+    color: #fff;
+}
+
+/* -------------feature------------- */
+#feature,#explore{
+    margin: 200px 0;
+}
+.feature-col-1{
+    position: relative;
+}
+#feature img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+#feature h2,#explore h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 45px;
+}
+#feature p,#explore p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #808080;
+    font-size: 14px;
+    line-height: 18px;
+}
+.fa-play-circle{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #6900d1;
+    background: transparent;
+    border: 3px solid #6900d1;
+    border-radius: 50%;
+}
+.fa-play-circle:hover{
+    opacity: 0.8;
+    background: #fff;
+}
+.button-a{
+    width: 170px;
+    padding: 15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
+    margin-bottom: 100px;
+}
+.button-a:hover{
+    color: #fff;
+}
+.feature-col-2{
+    margin-left: -30px;
+}
+
+/* ----------explore--------- */
+#explore img{
+    border-radius: 8px;
+}
+#explore h2{
+    margin-top: 60px;
+}
+.explore-col-1{
+    padding-right: 55px;
+}
+
+/* -------review---------- */
+#review{
+    margin: 100px 0;
+}
+.carousel-item img{
+    width: 150px !important;
+    height: 145px;
+    border-radius: 50% !important;
+    object-fit: cover;
+}
+.carousel-item{
+    text-align: center !important;
+    height: 450px;
+}
+.carousel-caption{
+    z-index: -1 !important;
+    box-shadow: 0 0 15px 1px rgba(166, 163, 223, 0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.carousel-caption h6{
+    margin-top: 85px;
+    font-weight: bold;
+    color: #000;
+}
+.carousel-caption small{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    display: block;
+    color: #000;
+}
+.carousel-caption p{
+    padding: 0 50px;
+    font-size: 15px;
+    color: #808080;
+}
+.carousel-indicators button{
+    background-color: #6900d1 !important;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    color: #555 !important;
+}
+
+/* -----Footer------- */
+#footer{
+    background: #6900d1;
+    padding-top: 5px;
+}
+/* #footer h2-ye #footer-e padding-top:5px vermesem margin-top islemir,niye??? margin: 70 px 0-da margin-top islemir margin-bottom isleyir ancaq*/
+#footer h2{
+    color: #fff;
+    margin: 70px 0;
+    font-weight: 600;
+}
+#footer input{
+    width: 60%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+::placeholder{
+    color: #efefef;
+    font-size: 13px;
+}
+#footer button{
+    padding: 6px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 20px;
+    background: transparent;
+}
+#footer small{
+    font-size: 14px;
+    color: #fff;
+    padding: 70px;
+    padding-bottom: 20px;
+    display: block;
 }
