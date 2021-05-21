@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: hsl(218, 28%, 13%);
+}
+h1,#cta,#header{
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    color: #fff;
+}
+p{
+    color: #fff;
+    opacity: 0.7;
+}
+
+/* ------header--------- */
+#header{
+    background: hsl(218, 28%, 13%);
+    padding: 60px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    opacity: 0.7;
+    border: 1px solid transparent;
+    margin-right: 50px;
+}
+.nav-links li:hover{
+    border-bottom: 1px solid #fff;
+    opacity: 1;
+}
+.header-intro{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+    color: #fff;
+}
+.header-intro h1,.prod-intro h1{
+    font-size: 2.4rem;
+    margin: 40px 0;
+    letter-spacing: 1px;
+}
+.header-intro p{
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+.button{
+    background: hsl(176, 68%, 64%);
+    color: #fff;
+    padding: 16px;
+    width: 250px;
+    border: none;
+    border-radius: 30px;
+    display: block;
+    margin: 40px auto;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* -----------flexbox--------- */
+#flexbox{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.flexbox-intro{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+}
+.col-6{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 70px;
+}
+.col-6 h4{
+    margin: 20px 0 10px 0;
+}
+
+/* --------productive--------- */
+.container{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.prod-intro{
+    width: 45%;
+}
+.prod{
+    width: 100%;
+}
+.prod-intro a{
+    color: rgba(255, 255, 255,0.7);
+    text-decoration: none;
+}
+.prod-intro a:hover{
+    border-bottom: 1px solid #fff;
+}
+.prod-intro p{
+    margin: 20px 0;
+}
+
+/* ----------testimonials------------- */
+.test-col{
+    width: 31%;
+    background: hsl(219, 30%, 18%);
+    padding: 30px 20px 20px 20px;
+    border-radius: 3px;
+}
+.test{
+    margin-top: 135px;
+    position: relative;
+}
+.quote{
+    height: 45px;
+    width: 50px;
+    position: absolute;
+    top: -35px;
+    left: -8px;
+    z-index: -1;
+}
+.test-col h6{
+    font-size: 13px;
+}
+.test-info{
+    display: flex;
+    margin-top: 30px;
+}
+.test-info img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.test-inner small{
+    font-size: 9px;
+    opacity: 0.7;
+}
+
+/* -------middle-------- */
+#middle{
+    width: 60%;
+    margin: 0 auto;
+    background: hsl(217, 28%, 15%);
+    padding: 40px 70px 0 70px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    top: 132px;
+}
+#middle input{
+    width: 66%;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-right: 20px;
+}
+#middle button{
+    width: 200px;
+    display: initial;
+    font-size: 15px;
+}
+.middle-inner p{
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.middle-inner h1{
+    font-size: 2.2rem;
+}
+::placeholder{
+    text-align: center;
+}
+
+/* ---------footer--------- */
+#footer{
+    background: hsl(216, 53%, 9%);
+    padding-bottom: 60px;
+}
+.footer-inside{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 190px;
+}
+.icons .fab{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 13px;
+    padding: 8px;
+    margin-right: 8px;
+    opacity: 0.9;
+    cursor: pointer;
+    width: 30px;
+    text-align: center;
+}
+.icons .fab:hover{
+    color: #62E0D9;
+    border-color: #62E0D9;
+    opacity: 1;
+}
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.icon-location{
+    height: 20px;
+    width: 17px;
+    margin-right: 20px;
+}
+.footer-logo{
+    width: 100px;
+}
+.num-mail img{
+    width: 17px;
+    margin-right: 20px;
+}
+#footer span{
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 0px;
+    display: block;
+}
+.num-mail div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.num-mail span{
+    color: #fff;
+}
+#footer li{
+    list-style: none;
+    color: #fff;
+    opacity: 0.7;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+#footer li:hover{
+    opacity: 1;
+}
+.icon-in{
+    display: flex;
+}
+.icon-cover{
+    width: 26%;
+}
+
+
+
+@media (max-width:375px){
+    .nav-links ul{
+        display: flex;
+    }
+    .nav-links li{
+        margin-right: 10px;
+    }
+    #header{
+        padding: 30px;
+        margin-bottom: 55px;
+    }
+    .header-intro{
+        width: 100%;
+    }
+    .header-intro img{
+        width: 100%;
+    }
+    .fylo{
+        width: 100px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-intro h1,.prod-intro h1{
+        font-size: 1.4rem;
+        letter-spacing: normal;
+    }
+    .header-intro p{
+        font-size: 1rem;
+    }
+    .flexbox-intro{
+        flex-direction: column;
+    }
+    .col-6,.prod-intro{
+        width: 100%;
+    }
+    #productive{
+        margin-top: 20px;
+    }
+    #flexbox{
+        margin-bottom: 70px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .prod-intro p{
+        font-size: 17px;
+    }
+    .prod-intro a{
+        color: #62E0D9;
+        font-size: 17px;
+        display: flex;
+        align-items: center;
+    }
+    .prod-arrow{
+        margin-left: 5px;
+    }
+    .test-col{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .quote{
+        height: 29px;
+        width: 36px;
+        top: -26px;
+        left: 6px;
+    }
+    #middle{
+        width: 85%;
+        padding: 40px 20px 0 20px;
+        border-radius: 10px;
+        top: 193px;
+    }
+    .middle-inner h1 {
+        font-size: 1.4rem;
+    }
+    .middle-inner p {
+        line-height: 22px;
+        opacity: 0.9;
+    }
+    #middle input{
+        width: 92%;
+        margin: 45px auto 0;
+    }
+    #middle button{
+        width: 92%;
+    }
+    .footer-inner{
+        flex-direction: column;
+    }
+    .footer-inside {
+        padding-top: 270px;
+    }
+    .footer-logo {
+        width: 178px;
+    }
+    .icon-cover{
+        width: 100% !important;
+    }
+    .icon-in,.num-mail div{
+        margin-bottom: 25px;
+    }
+    .num-mail{
+        margin-bottom: 20px;
+    }
+    .ul-div{
+        margin-bottom: 50px;
+    }
+    .icons{
+        text-align: center;
+    }
+
+}
