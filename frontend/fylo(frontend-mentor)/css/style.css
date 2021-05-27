@@ -380,5 +380,8 @@ nav{
     .icons{
         text-align: center;
     }
+    .test{
+        margin-bottom: -100px;
+    }
 
 }
