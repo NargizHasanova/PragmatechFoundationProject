@@ -98,9 +98,7 @@ filterBtns.forEach(e => {
     e.addEventListener("click", a => {
         let category = a.currentTarget.dataset.id
         let array2 = menu.filter(m => {
-            if (category == m.category) {
-                return m
-            }
+            return category == m.category
         })
         if (category == "all") {
             displayMenu(menu)
